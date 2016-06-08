@@ -3,6 +3,7 @@
 Steps to create a secret gh-pages
 
 1) Create a new private repo with a super secret token (maybe try [randomkeygen](http://randomkeygen.com/))
+
 2) Add new remote to existing repo:
 
 ```sh
