@@ -6,14 +6,14 @@ Steps to create a secret gh-pages
 2) Add new remote to existing repo:
 
 ```sh
-git remote add private git@github.com:Hypercubed/290182e185f15ec57c927e7742805594.git
+git remote add secret git@github.com:Hypercubed/290182e185f15ec57c927e7742805594.git
 ```
 
 3) Publish gh-pages to new repo (use git directly or gulp-gh-pages, etc).  For example:
 
 ```
 git checkout -b gh-pages
-git push private gh-pages
+git push secret gh-pages
 ```
 
 4) Open send your secret gh-pages to friends: [http://hypercubed.github.io/290182e185f15ec57c927e7742805594/](http://hypercubed.github.io/290182e185f15ec57c927e7742805594/)
