@@ -6,5 +6,16 @@
 
 <p>You found my secret</p>
 
+<h1 id="gh-pages-secret-poc">gh-pages-secret-poc</h1>
+<p>Steps to create a secret gh-pages</p>
+<p>1) Create a new private repo with a super secret token (maybe try <a href="http://randomkeygen.com/">randomkeygen</a>)
+2) Add new remote to existing repo:</p>
+<pre><code class="lang-sh">git remote add private git@github.com:Hypercubed/290182e185f15ec57c927e7742805594.git
+</code></pre>
+<p>3) Publish gh-pages to new repo (use git directly or gulp-gh-pages, etc).  For example:</p>
+<pre><code>git checkout -b gh-pages
+git push private gh-pages
+</code></pre><p>4) Open send your secret gh-pages to friends: <a href="http://hypercubed.github.io/290182e185f15ec57c927e7742805594/">http://hypercubed.github.io/290182e185f15ec57c927e7742805594/</a></p>
+
 </body>
 </html>
